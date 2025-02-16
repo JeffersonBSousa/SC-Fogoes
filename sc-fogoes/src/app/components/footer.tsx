@@ -11,6 +11,7 @@ export default function Footer() {
                             className="w-full"
                         ></iframe>
                     </div>
+                    {/*FALTA OS LINKS E OS SVG*/}
                     <div className="lg:w-1/3 gap-1">
                         <p className="font-bold mb-2">HORÁRIO DE FUNCIONAMENTO</p>
                         <p>Segunda-feira - Sexta-feira, 08:00 - 17:30</p>
