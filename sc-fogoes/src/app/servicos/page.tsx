@@ -33,7 +33,7 @@ export default function Contato() {
                <div className="flex justify-center items-center">
                   <Image
                      loading="lazy"
-                     src="/img/manutençao.avif"
+                     src="/img/"
                      alt="Sc fogoes"
                      width={520}
                      height={520}
@@ -46,7 +46,7 @@ export default function Contato() {
             <div className="flex justify-center items-center">
                <Image
                   loading="lazy"
-                  src="/img/industrial.jpeg"
+                  src="/img/industrial.webp"
                   alt="Sc fogoes"
                   width={520}
                   height={520}
@@ -69,7 +69,7 @@ export default function Contato() {
                <div className="flex justify-center items-center">
                   <Image
                      loading="lazy"
-                     src="/img/conversao.jpeg"
+                     src="/img/conversao.webp"
                      alt="Sc fogoes"
                      width={520}
                      height={400}
