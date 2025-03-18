@@ -33,7 +33,7 @@ export default function Contato() {
                <div className="flex justify-center items-center">
                   <Image
                      loading="lazy"
-                     src="/img/"
+                     src="/img/manutenção.webp"
                      alt="Sc fogoes"
                      width={520}
                      height={520}
