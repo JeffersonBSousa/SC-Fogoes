@@ -9,10 +9,10 @@ export default function Contato() {
          <div className="min-h-screen">
             <div className="relative z-10">
                <Navbar />
-               <h3 className="mt-32 text-center font-bold text-4xl text-white">SINTA-SE À VONTADE PARA ENTRAR EM CONTATO CONOSCO</h3>
-               <div className="text-white max-w-screen-2xl mx-auto justify-center gap-20 flex mt-32">
+               <h3 className="mt-10 mx-6 lg:mt-32 text-center font-bold text-2xl lg:text-4xl text-white">SINTA-SE À VONTADE PARA ENTRAR EM CONTATO CONOSCO</h3>
+               <div className="text-white max-w-screen-2xl mx-auto justify-center gap-20 flex flex-col lg:flex-row mt-10 lg:mt-32 p-6">
                   <div className="lg:w-1/4 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg">
-                     <h3 className="font-bold text-3xl">ENTRE EM CONTATO</h3>
+                     <h3 className="font-bold lg:text-3xl">ENTRE EM CONTATO</h3>
                      <Link
                         href="tel:+558331427333"
                         target="_blank"
@@ -26,7 +26,7 @@ export default function Contato() {
                            loading="lazy"
                            alt="Telefone para contato"
                         />
-                        <span className="font-semibold text-2xl">(83) 3142-7333</span>
+                        <span className="font-semibold lg:text-2xl">(83) 3142-7333</span>
                      </Link>
                      <Link
                         href="https://api.whatsapp.com/send/?phone=5583988005001&text&type=phone_number&app_absent=0"
@@ -41,7 +41,7 @@ export default function Contato() {
                            loading="lazy"
                            alt="Whatsapp"
                         />
-                        <span className="font-semibold text-2xl">(83) 98800-5001</span>
+                        <span className="font-semibold lg:text-2xl">(83) 98800-5001</span>
                      </Link>
                      <Link
                         href="mailto:scfogoes@gmail.com"
@@ -56,7 +56,7 @@ export default function Contato() {
                            loading="lazy"
                            alt="Email"
                         />
-                        <span className="font-semibold text-2xl">scfogoes@gmail.com</span>
+                        <span className="font-semibold lg:text-2xl">scfogoes@gmail.com</span>
                      </Link>
                      <Link
                         href="https://www.instagram.com/scfogao/"
@@ -71,17 +71,17 @@ export default function Contato() {
                            loading="lazy"
                            alt="Instagram"
                         />
-                        <span className="font-semibold text-2xl">@scfogões</span>
+                        <span className="font-semibold lg:text-2xl">@scfogões</span>
                      </Link>
                   </div>
-                  <div className="lg:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg text-2xl">
+                  <div className="lg:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg lg:text-2xl">
                      <div>
-                        <h3 className="font-semibold text-3xl mb-3">HORÁRIO DE FUNCIONAMENTO</h3>
+                        <h3 className="font-semibold lg:text-3xl mb-3">HORÁRIO DE FUNCIONAMENTO</h3>
                         <p>Segunda-feira - Sexta-feira, 08:00 - 17:30</p>
                         <p>Sábado, 08:00 - 12:00</p>
                      </div>
                      <div>
-                        <h3 className="font-semibold text-3xl mb-3">NOSSO ENDEREÇO</h3>
+                        <h3 className="font-semibold lg:text-3xl mb-3">NOSSO ENDEREÇO</h3>
                         <p>Av maria rosa 1470 sala 10, Manaira, João Pessoa-PB, Brasil</p>
                      </div>
                   </div>
