@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link";
 
 export default function Navbar() {
-    return ( 
+    return (
         <div className="w-full bg-blue-950 text-white">
             <div className="max-w-screen-2xl mx-auto flex justify-evenly uppercase font-bold items-center py-2 text-xs sm:text-base">
                 <Link href="/">
