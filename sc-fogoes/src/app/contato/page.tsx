@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Contato() {
    return (
-      <div>
+      <div> 
          <div className="min-h-screen bg-blue-950">
             <div className="relative z-10">
                <Navbar />
