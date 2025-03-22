@@ -101,6 +101,5 @@ export default function Contato() {
             <Footer />
          </div>
       </div>
-
    )
 }
