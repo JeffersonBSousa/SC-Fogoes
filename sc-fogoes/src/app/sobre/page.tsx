@@ -36,7 +36,7 @@ export default function Contato() {
                <div className="my-auto">
                   <p className="font-bold px-6 sm:px-20 lg:px-0 text-xl lg:text-3xl pb-4">Um Legado Deixado</p>
                   <p className="font-semibold px-6 sm:px-20 lg:px-0 pb-4">Sebastião Mariano – Bastos dos Fogões</p>
-                  <p className="px-6 sm:px-20 lg:px-0">O legado de Sebastião Mariano, nosso querido mentor "Bastos dos Fogões", atravessa gerações. Seu conhecimento, dedicação e boas práticas continuam vivos em cada um de nós.</p>
+                  <p className="px-6 sm:px-20 lg:px-0">O legado de Sebastião Mariano, nosso querido mentor `&quot;`Bastos dos Fogões`&quot;`, atravessa gerações. Seu conhecimento, dedicação e boas práticas continuam vivos em cada um de nós.</p>
                   <p className="px-6 sm:px-20 lg:px-0 pb-4">Com uma trajetória profissional exemplar, ele plantou sementes que frutificam até hoje, inspirando-nos a seguir honrando sua história. Viveu sua vida com amor e entrega à profissão, exercendo-a com maestria até seus últimos dias.</p>
                   <p className="font-semibold px-6 sm:px-20 lg:px-0">Obrigado, Sebastião Mariano, por tudo! Seu legado jamais será esquecido.</p>
                </div>
