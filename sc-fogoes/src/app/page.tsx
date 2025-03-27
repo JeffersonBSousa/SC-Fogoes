@@ -2,6 +2,7 @@ import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import Image from "next/image";
 import Link from "next/link";
+import Reviews from "./components/reviews";
 
 export default function Home() {
   return (
@@ -242,6 +243,7 @@ export default function Home() {
         </div>
       </div>
       <div className="relative z-10">
+        <Reviews />
         <Footer />
       </div>
     </div>
