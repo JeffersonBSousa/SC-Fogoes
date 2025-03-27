@@ -1,13 +1,4 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import Head from "next/head";
-
-
-export const metadata: Metadata = {
-  title: "SC Fogões",
-  description:
-    "Empresa especializada em instalação e manutenção de fogões, medidores de gás e tubulações de gás em João Pessoa-PB.",
-};
 
 export default function RootLayout({
   children,
@@ -16,8 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <Head>
-        <link rel="icon" href="/scfogoeslogo.jpeg" type="image/jpeg" />
+      <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -51,7 +41,7 @@ export default function RootLayout({
             }),
           }}
         />
-      </Head>
+      </head>
       <body>{children}</body>
     </html>
   );
