@@ -33,7 +33,7 @@ export default function Servicos() {
           <div className="lg:w-1/3 px-4 flex flex-col gap-4 items-center lg:items-start">
             <p className="font-bold text-2xl">Conserto</p>
             <p className="font-semibold">
-              Consertamos qualquer marca e modelo.
+              Consertamos .
             </p>
             <p className="text-justify lg:text-start">
               Realizamos a conserto do seu fogão com total segurança e
