@@ -104,6 +104,7 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 w-full max-h-[1000px] overflow-hidden z-0">
           <video
+            preload="auto"
             autoPlay
             loop
             muted
