@@ -111,7 +111,7 @@ const ReviewCard = ({ name, rating, text }: Review) => {
 export default function Reviews() {
   return (
     <div className="max-w-screen-xl mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold mb-10 text-center">O que nossos clientes dizem sobre nos</h2>
+      <h2 className="text-3xl font-bold mb-10 text-center">O que nossos clientes dizem sobre nós</h2>
       <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-4">
         {reviews.map((review, index) => (
           <ReviewCard key={index} {...review} />

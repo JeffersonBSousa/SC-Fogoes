@@ -26,12 +26,12 @@ export default function Footer() {
                     <div className="lg:w-1/3 flex flex-col gap-2">
                         <div>
                             <h3 className="font-semibold">HORÁRIO DE FUNCIONAMENTO</h3>
-                            <p>Segunda-feira - Sexta-feira, 08:00 - 17:30</p>
-                            <p>Sábado, 08:00 - 12:00</p>
+                            <p>Segunda a Sexta-feira: 08h00 às 17h30</p>
+                            <p>Sábado: 08h00 às 12h00</p>
                         </div>
                         <div>
                             <h3 className="font-semibold">NOSSO ENDEREÇO</h3>
-                            <p>Av maria rosa 1470 sala 10, Manaira, João Pessoa-PB, Brasil</p>
+                            <p>Avenida Maria Rosa, nº 1470, sala 10 - Manaira, João Pessoa, PB, Brasil</p>
                         </div>
                     </div>
                     <div className="lg:w-1/3 flex flex-col gap-2">

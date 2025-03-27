@@ -10,9 +10,11 @@ export default function Home() {
       <div className="bg-blue-950">
         <div className="relative z-10">
           <Navbar />
+
           <h3 className="mt-10 mx-6 xl:mt-24 2xl:mt-32 text-center font-bold text-2xl lg:text-4xl text-white">
             SINTA-SE À VONTADE PARA ENTRAR EM CONTATO CONOSCO
           </h3>
+
           <div className="text-white 2xl:mb-56 max-w-screen-2xl mx-auto justify-center gap-20 flex flex-col lg:flex-row mt-10 xl:mt-24 2xl:mt-32 p-6">
             <div className="lg:w-2/5 xl:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg">
               <h3 className="font-bold lg:text-3xl">ENTRE EM CONTATO</h3>
@@ -88,15 +90,16 @@ export default function Home() {
                 <h3 className="font-semibold lg:text-3xl mb-3">
                   HORÁRIO DE FUNCIONAMENTO
                 </h3>
-                <p>Segunda-feira - Sexta-feira, 08:00 - 17:30</p>
-                <p>Sábado, 08:00 - 12:00</p>
+                <p>Segunda a Sexta-feira: 08h00 às 17h30</p>
+                <p>Sábado: 08h00 às 12h00</p>
               </div>
               <div>
                 <h3 className="font-semibold lg:text-3xl mb-3">
                   NOSSO ENDEREÇO
                 </h3>
                 <p>
-                  Av maria rosa 1470 sala 10, Manaira, João Pessoa-PB, Brasil
+                  Avenida Maria Rosa, nº 1470, sala 10 - Manaira, João Pessoa,
+                  PB, Brasil
                 </p>
               </div>
             </div>
@@ -143,12 +146,12 @@ export default function Home() {
       <div className="w-full bg-blue-950 text-white">
         <div className="max-w-screen-2xl min-h-[700px] mx-auto flex flex-col lg:flex-row justify-center gap-10 lg:gap-20 xl:gap-40 py-10 lg:py-20 items-center">
           <div className="lg:w-1/3 px-4 flex flex-col gap-4 items-center lg:items-start">
-            <p className="font-bold text-2xl">Manutenção</p>
+            <p className="font-bold text-2xl">Conserto</p>
             <p className="font-semibold">
-              Fazemos manutenção em qualquer marca e modelo
+              Fazemos conserto em qualquer marca e modelo
             </p>
             <p className="text-center lg:text-start">
-              Realizamos a manutenção do seu fogão com total segurança e
+              Realizamos a conserto do seu fogão com total segurança e
               qualidade, seguindo rigorosamente todas as normas técnicas. Antes
               de iniciar o serviço, realizamos uma inspeção completa para
               identificar possíveis ajustes ou reparos necessários. Após a
