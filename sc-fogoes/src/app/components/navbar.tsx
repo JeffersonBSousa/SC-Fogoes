@@ -16,7 +16,7 @@ export default function Navbar() {
                     />
                 </Link>
                 <Link href="/" className="hover:text-yellow-200 transition-colors">
-                    Inicio
+                    Início
                 </Link>
                 <Link href="/servicos" className="hover:text-yellow-200 transition-colors">
                     Serviços
