@@ -63,8 +63,8 @@ export default function Servicos() {
         <div className="lg:w-1/3 px-4 flex flex-col gap-4 items-center lg:items-start">
           <p className="font-bold  text-2xl">Manutenção industrial</p>
           <p className="text-justify lg:text-start">
-            Realizamos a manutenção de fogões, fornos e equipamentos similares
-            para cozinhas industriais.
+            Realizamos a manutenção de fogões, fornos, chapas, fritadeiras,
+            caldeiras e equipamentos similares para cozinhas industriais.
           </p>
         </div>
       </div>
