@@ -11,12 +11,7 @@ export default function Home() {
       <div className="bg-blue-950">
         <div className="relative z-10">
           <Navbar />
-
-          <h3 className="mt-10 mx-6 xl:mt-24 2xl:mt-32 text-center font-bold text-2xl lg:text-4xl text-white">
-            SINTA-SE À VONTADE PARA ENTRAR EM CONTATO CONOSCO
-          </h3>
-
-          <div className="text-white 2xl:mb-56 max-w-screen-2xl mx-auto justify-center gap-20 flex flex-col lg:flex-row mt-10 xl:mt-24 2xl:mt-32 p-6">
+          <div className="text-white 2xl:mb-40 max-w-screen-2xl mx-auto justify-center gap-20 flex flex-col lg:flex-row px-6 py-20">
             <div className="lg:w-2/5 xl:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg">
               <h3 className="font-bold lg:text-3xl">ENTRE EM CONTATO</h3>
               <Link
@@ -91,36 +86,34 @@ export default function Home() {
                 <h3 className="font-semibold lg:text-3xl mb-3">
                   HORÁRIO DE FUNCIONAMENTO
                 </h3>
-                <p>Segunda a Sexta-feira: 08h00 às 17h30</p>
-                <p>Sábado: 08h00 às 12h00</p>
+                <p>Segunda-feira - Sexta-feira, 08:00 - 17:30</p>
+                <p>Sábado, 08:00 - 12:00</p>
               </div>
               <div>
                 <h3 className="font-semibold lg:text-3xl mb-3">
                   NOSSO ENDEREÇO
                 </h3>
                 <p>
-                  Avenida Maria Rosa, nº 1470, sala 10 - Manaira, João Pessoa,
-                  PB, Brasil
+                  Av maria rosa 1470 sala 10, Manaira, João Pessoa-PB, Brasil
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute inset-0 w-full max-h-[1000px] overflow-hidden z-0">
+        <div className="hidden md:block absolute inset-0 w-full max-h-[1000px] overflow-hidden z-0">
           <video
-            preload="auto"
             autoPlay
             loop
             muted
             playsInline
-            className="absolute inset-0 w-full z-0"
+            className="absolute inset-0 w-full z-0 min-h-screen "
           >
             <source src="/movie/videochama.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
-      <Servicos />
       <div className="relative z-10">
+        <Servicos />
         <Reviews />
         <Footer />
       </div>
