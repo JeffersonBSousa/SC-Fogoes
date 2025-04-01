@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Servicos() {
   return (
     <div>
-      <div className="max-w-screen-2xl min-h-[700px] mx-auto flex flex-col-reverse lg:flex-row justify-center gap-10 lg:gap-20 xl:gap-40 py-10 lg:py-20 items-center">
+      <div className="bg-white max-w-screen-2xl min-h-[700px] mx-auto flex flex-col-reverse lg:flex-row justify-center gap-10 lg:gap-20 xl:gap-40 py-10 lg:py-20 items-center">
         <div className="flex justify-center items-center">
           <Image
             loading="lazy"
@@ -49,7 +49,7 @@ export default function Servicos() {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-2xl min-h-[700px] mx-auto flex flex-col-reverse lg:flex-row justify-center gap-10 lg:gap-20 xl:gap-40 py-10 lg:py-20 items-center">
+      <div className="bg-white max-w-screen-2xl min-h-[700px] mx-auto flex flex-col-reverse lg:flex-row justify-center gap-10 lg:gap-20 xl:gap-40 py-10 lg:py-20 items-center">
         <div className="flex justify-center items-center">
           <Image
             loading="lazy"
@@ -92,7 +92,7 @@ export default function Servicos() {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-2xl min-h-[700px] mx-auto flex flex-col-reverse lg:flex-row justify-center gap-10 lg:gap-20 xl:gap-40 py-10 lg:py-20 items-center">
+      <div className="bg-white max-w-screen-2xl min-h-[700px] mx-auto flex flex-col-reverse lg:flex-row justify-center gap-10 lg:gap-20 xl:gap-40 py-10 lg:py-20 items-center">
         <div className="flex justify-center items-center">
           <Image
             loading="lazy"
