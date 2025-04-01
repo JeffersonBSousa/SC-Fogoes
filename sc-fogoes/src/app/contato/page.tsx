@@ -9,7 +9,7 @@ export default function Contato() {
       <div className="bg-blue-950">
         <div className="relative z-10">
           <Navbar />
-          <div className="text-white 2xl:mb-40 max-w-screen-2xl mx-auto justify-center gap-20 flex flex-col lg:flex-row px-6 py-12">
+          <div className="text-white 2xl:mb-40 max-w-screen-2xl mx-auto justify-center gap-20 flex flex-col lg:flex-row px-6 py-20">
             <div className="lg:w-2/5 xl:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg">
               <h3 className="font-bold lg:text-3xl">ENTRE EM CONTATO</h3>
               <Link
