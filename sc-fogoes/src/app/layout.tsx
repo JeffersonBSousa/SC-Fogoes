@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "SC Fogões",
   description: "Empresa especializada em instalação e manutenção de fogões",
+  icons: {
+    icon: "/img/LOGOSITE.JPEG",
+    apple: "/img/LOGOSITE.JPEG",
+  },
 };
 
 export default function RootLayout({
@@ -14,6 +18,21 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-10976263576"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-10976263576');
+            `,
+          }}
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

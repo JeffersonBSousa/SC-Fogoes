@@ -9,7 +9,7 @@ export default function Navbar() {
                     <Image
                         priority
                         src="/img/ScFogoes.png"
-                        alt="Sc fogoes logo"
+                        alt="Sc fogoes"
                         width={240}
                         height={200}
                         className="cursor-pointer w-24 sm:w-60"
