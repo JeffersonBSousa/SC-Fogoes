@@ -37,7 +37,7 @@ export default function Footer() {
                     <div className="lg:w-1/3 flex flex-col gap-2">
                         <h3 className="font-bold">ENTRE EM CONTATO</h3>
                         <Link
-                            href="tel:+558331427333"
+                            href="tel:+5583988005001"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex gap-1"
@@ -49,7 +49,7 @@ export default function Footer() {
                                 loading="lazy"
                                 alt="Telefone para contato"
                             />
-                            <span className="font-semibold">(83) 3142-7333</span>
+                            <span className="font-semibold">(83) 98800-5001</span>
                         </Link>
                         <Link
                             href="https://api.whatsapp.com/send/?phone=5583988005001&text&type=phone_number&app_absent=0"

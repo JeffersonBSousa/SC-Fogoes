@@ -15,7 +15,7 @@ export default function Home() {
             <div className="lg:w-2/5 xl:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg">
               <h3 className="font-bold lg:text-3xl">ENTRE EM CONTATO</h3>
               <Link
-                href="tel:+558331427333"
+                href="tel:+5583988005001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-1"
@@ -28,7 +28,7 @@ export default function Home() {
                   alt="Telefone para contato"
                 />
                 <span className="font-semibold lg:text-2xl">
-                  (83) 3142-7333
+                  (83) 98800-5001
                 </span>
               </Link>
               <Link

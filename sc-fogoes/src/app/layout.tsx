@@ -43,7 +43,7 @@ export default function RootLayout({
               description:
                 "Empresa especializada em instalação e manutenção de fogões, medidores de gás e tubulações de gás em João Pessoa-PB.",
               url: "https://www.scfogoes.online",
-              telephone: "+55 83 3142-7333",
+              telephone: "+55 83 988005001",
               contactPoint: [
                 {
                   "@type": "ContactPoint",
